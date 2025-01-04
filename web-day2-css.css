@@ -1,0 +1,36 @@
+#about-me-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+.profile, .profile-desc{
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+}
+.profile-intro{
+    padding: 20px;
+}
+.profile-desc{
+    padding: 20px;
+}
+.about-me-title{
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 0 20px 15px;
+}
+.profile-pic img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+/* Form */
+input[type="text"]:focus{
+    color: green;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+}
