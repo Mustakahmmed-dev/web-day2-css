@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
 #about-me-container{
     display: flex;
     justify-content: space-around;
@@ -36,4 +44,28 @@ input[type="text"]{
     border: 1px solid gray;
     outline: none;
     text-align: right;
+}
+
+/* Blogs */
+.feature-blogs{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.blogs{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+/* Blog */
+.blog-directory:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blueviolet;
+}
+.blog{
+    margin-bottom: 50px;
+}
+/* Main content to display none */
+.blog-contents{
+    display: none;
 }
